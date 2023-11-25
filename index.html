@@ -377,31 +377,14 @@
                 top: 0;
                 right: 0;
             }
-            .navbar {
-                display: flex;
-                justify-content: space-between;
-                padding: 20px;
-                background-color: #f8f8f8;
-            }
-
-            .navbar ul {
-                display: flex;
-                list-style-type: none;
-            }
-
-            .navbar ul li {
-                margin-left: 20px;
-            }
         }
     </style>
 </head>
 
 <body>
-        <nav class="navbar" style="background-color: #545f60;">
-          <div class="logo-top-right">
-            <img src="resources/Diseño sin título (3).png" alt="Logo" style="height: 100px; width: 100px;">
-          </div>
-        </nav>
+    <div class="logo-top-right" style="height: 100px; width: 100px; ">
+        <img src="resources/Diseño sin título (3).png" alt="Logo" >
+      </div>
     <div id="wrap">
         <div id="product_layout_3">
             <div class="product_image">
@@ -437,6 +420,10 @@
                     <span class="QTY">Cantidad:35</span>
                 </div>
                 <div class="description">
+                    
+Nuestra camisa deportiva de quitosano tiene un diseño atractivo y versátil, con cuello redondo, manga corta y logo estampado. 
+<br><br>Está disponible en varios colores y tallas, para que elijas el que más te guste y se adapte a tu cuerpo.<br> <br>
+Además, tiene un precio muy competitivo y accesible, comparado con otras marcas de ropa deportiva.
                 </div>
                 <div class="social">
                     <span class="share">Share This:</span><span class="buttons" style="height: 10px; width: 10px;"><img
@@ -461,4 +448,15 @@
         });
 
     })(jQuery);
-</script>
+</script><style>
+    /* Existing CSS code */
+
+    #product_layout_3 .buying .cart a.add {
+        /* Existing styles */
+        transition: background-color 0.3s ease;
+    }
+
+    #product_layout_3 .buying .cart a.add:hover {
+        background-color: lightblue;
+    }
+</style>
